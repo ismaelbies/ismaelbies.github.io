@@ -3,7 +3,7 @@ var filesToCache = [
     '/',
     '/index.html',
     '/style.css',
-    '/main.js
+    '/main.js'
 ];
 
 self.addEventListener('install', function(e)) {
