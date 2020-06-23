@@ -16,6 +16,6 @@ function getList() {
 	xhttp.send();
 	
 	var p = document.getElementById("cep");
-	p.innerHTML = Object.values(texto);
+	p.innerHTML = texto;
 }
 getList();
