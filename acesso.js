@@ -7,7 +7,7 @@ function getList() {
 		} if(this.readyState==4 && this.status==200) {
 			var content = this.responseText;
 			var value = JSON.parse(content);
-			alert(value);
+			alert(value.values());
 		}
 	}
 	xhttp.open("GET","https://viacep.com.br/ws/01001000/json/",true);
