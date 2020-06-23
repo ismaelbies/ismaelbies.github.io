@@ -8,10 +8,12 @@ function getList() {
 			var content = this.responseText;
 			var value = JSON.parse(content);
 			alert(Object.values(value));
+			
+			var p = getElementById("cep");
+			p.innerHTML = Object.values(value);
 		}
 	}
 	xhttp.open("GET","https://viacep.com.br/ws/01001000/json/",true);
 	xhttp.send();
-	
 }
 getList();
