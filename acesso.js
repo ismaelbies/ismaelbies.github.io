@@ -11,6 +11,6 @@ function getList() {
 	}
 	xhttp.open("GET","https://viacep.com.br/ws/01001000/json/",true);
 	xhttp.send();
-	
+	alert(value);
 }
 getList();
