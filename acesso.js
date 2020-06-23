@@ -15,7 +15,7 @@ function getList() {
 	xhttp.open("GET","https://viacep.com.br/ws/01001000/json/",true);
 	xhttp.send();
 	
-	var p = getElementById("cep");
+	var p = document.getElementById("cep");
 	p.innerHTML = Object.values(value);
 }
 getList();
