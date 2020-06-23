@@ -13,3 +13,4 @@ function getList() {
 	xhttp.send();
 	
 }
+getList();
